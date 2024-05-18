@@ -10,6 +10,7 @@ public class ReverseString {
         return builder.toString();
     }
 
+
     public boolean isPalindrome(String str) {
         return str.equalsIgnoreCase(reverse(str));
     }
