@@ -3,8 +3,6 @@ public class ReverseInt {
 
     public int reverse(int n) {
         //TODO: overflow/underflow solution
-        //
-        //
 
         boolean isNegative = n < 0;
         int res = 0;
@@ -17,6 +15,5 @@ public class ReverseInt {
         if (isNegative) {
             return -res;
         } else return res;
-
     }
 }
