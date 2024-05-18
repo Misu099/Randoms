@@ -107,7 +107,6 @@ public class InteractiveStudentGrades {
         }
     }
 
-
     private static void displayAllGrades(HashMap<Integer, String> studentGrades) {
         System.out.println(ANSI_BLUE + "\nAll Student Grades:" + ANSI_RESET);
         for (Map.Entry<Integer, String> entry : studentGrades.entrySet()) {
