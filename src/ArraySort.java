@@ -1,6 +1,6 @@
 public class ArraySort {
 
-
+//todo: change the bubble sort O(n2) to something better;
     public <T extends Comparable<T>> T[] sort(T[] arr) {
         T temp;
         for (int i = 0; i < arr.length - 1; i++) {
